@@ -17,10 +17,10 @@ char* readline(const char* promt)
     fputs(promt, stdout); // 不用puts(), 因为还会输出\n
     fgets(input, MAXINPUT, stdin);
     
-    char* temp = malloc(strlen(input)+1);
+    char* temp = malloc(strlen(input));
     
-    strcpy(temp, input);
-    temp[strlen(input)] = '\0';
+    strncpy(temp, input, strlen(input)-1);
+    temp[strlen(input)-1] = '\0';
     return temp;
 }
 
