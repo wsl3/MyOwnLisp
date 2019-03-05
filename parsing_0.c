@@ -1,6 +1,6 @@
 /*
-   逆波兰式 解析
-   gcc file.c mpc.c -lreadline -lm
+    逆波兰式 解析
+    gcc file.c mpc.c -lreadline -lm
 */
 
 #include<stdio.h>
