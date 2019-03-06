@@ -106,8 +106,8 @@ int numNodes(mpc_ast_t* t)
 
 int caculate_op(char* op, int x, int y)
 {
-    if(strcmp(op, "+")==0){return x + y; };
-    if(strcmp(op, "-")==0){return x - y; };
-    if(strcmp(op, "*")==0){return x * y; };
-    if(strcmp(op, "/")==0){return x / y; };
+    if(strcmp(op, "+")==0){return x + y; }
+    if(strcmp(op, "-")==0){return x - y; }
+    if(strcmp(op, "*")==0){return x * y; }
+    if(strcmp(op, "/")==0){return x / y; }
 }
